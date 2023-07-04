@@ -1,0 +1,102 @@
+.corpo{         
+    margin: 50px;          
+    background-color: rgba(255, 166, 0, 0.646);
+    border-radius: 10px;
+    padding: 50px;        
+    box-shadow: 0px 0px 30px 15px #0004;
+}
+
+.text{
+    display: flex;    
+    justify-content: space-evenly;                                
+}
+
+.text a{    
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 1.2em;                    
+}
+
+/* .a1{
+    padding: 0px 13.5%;
+}
+
+.a2{
+    padding: 0px 11.2%;
+}
+
+.a3{
+    padding: 0px 14.5%;
+} */
+
+.campos{
+    display: flex;
+    margin: 3px;
+    justify-content: space-evenly;    
+}
+
+
+input{
+    margin-right: 3px;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+}
+
+button{    
+    width: 60vh;
+    border: 0;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(55, 55, 255);
+    color: aqua;
+    transition: .5s;
+}
+
+button:hover{
+    background-color: blue;    
+}
+
+.button{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.pesos{
+    display: grid;       
+    justify-content: center;   
+    text-align: center;
+    padding: 30px;    
+}
+
+.result{
+    background-color: #fff;
+    width: 60vh;        
+    border-radius: 5px;
+    color: orange;
+    padding: 5px;
+}
+
+.exemplo{               
+    background-color: #fff;    
+    width: 60vh;
+}
+
+.exemplo img{               
+    width: 127px;    
+    height: 227px;    
+}
+
+.btn-crud{
+    display: flex;                 
+    justify-content: center;    
+}
+
+.btn-crud button{          
+    margin-left: 10px;        
+    width: 230px; 
+}
+

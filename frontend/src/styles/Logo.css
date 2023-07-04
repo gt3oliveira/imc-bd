@@ -1,0 +1,9 @@
+.logo{    
+    text-align: center;    
+    background-color: var(--bg-dark);
+}
+
+img{            
+    margin-top: 15px;
+    width: 95%;      
+}

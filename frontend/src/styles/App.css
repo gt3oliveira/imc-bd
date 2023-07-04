@@ -1,0 +1,45 @@
+:root{
+    --bg-dark: #1a2f3a;
+    --logo-height: 80px;
+    --header-height: 80px;    
+    --nv-height: 102%;
+    --shadow:
+        0 2px 23px 0 rgba(0, 0, 0, 0.1),
+        0 2px 49px 0 rgba(0, 0, 0, 0.06);
+
+}
+
+*{        
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;        
+}
+
+.app{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 225px 1fr;
+    grid-template-rows: var(--header-height) 2fr;
+    grid-template-areas: 
+    "l h"
+    "n v";
+    height: 100vh;    
+    background: url('../assets/imgs/background.png');
+}
+
+.header{      
+    grid-area: h; 
+}
+
+.nav{    
+    grid-area: n;   
+    height: var(--nv-height); 
+}
+
+.view{            
+    grid-area: v;
+    height: var(--nv-height);
+}
+
+.logo{   
+    grid-area: l;    
+}

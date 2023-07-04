@@ -1,0 +1,12 @@
+.usercrud{
+    display: flex;
+    margin: 40px 10px;
+    padding: 10px;          
+    border-radius: 10px;
+    font-weight: 400;
+    box-shadow: -5px 5px 20px 5px #0004;
+}
+
+.btn{
+    width: fit-content;
+}

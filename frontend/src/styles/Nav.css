@@ -1,0 +1,23 @@
+.nav {
+    display: block;
+    background-color: var(--bg-dark);
+    box-shadow:
+        2px 0 10px 0 rgba(0, 0, 0, 0.12),
+        2px 0 15px 0 rgba(0, 0, 0, 0.09);
+}
+
+.nav a {
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 200;
+    padding: 15px;
+}
+
+.nav i {    
+    padding-right: 5px;
+}
+
+.nav a:hover {    
+    background: linear-gradient(135deg, #244050 0%, #31586e 100%);
+}

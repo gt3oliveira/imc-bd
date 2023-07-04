@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "name": "Amanda",
+      "peso": "65",
+      "altura": "1.66",
+      "imc": "23.59",
+      "id": 2
+    },
+    {
+      "name": "Matheus",
+      "peso": "95",
+      "altura": "1.85",
+      "imc": "27.76",
+      "id": 3
+    },
+    {
+      "name": "Felipe Molinari",
+      "peso": "110",
+      "altura": "1.75",
+      "imc": "35.92",
+      "id": 4
+    },
+    {
+      "name": "Gustavo",
+      "peso": "75",
+      "altura": "1.80",
+      "imc": "23.15",
+      "id": 5
+    },
+    {
+      "name": "Felipe B.",
+      "peso": "80",
+      "altura": "1.76",
+      "imc": "25.83",
+      "id": 6
+    }
+  ]
+}
